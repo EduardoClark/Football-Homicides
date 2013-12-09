@@ -1,0 +1,16 @@
+{
+    "contents" : "###################################\n### Author:Eduardo Clark\n### Project: Homicides and Fútbol\n### Date: September 2013\n### For mediotiempo.com\n###################################\n\n### Run all for project\nsource(\"src/loadLibraries.R\") #Load Libraries\n\n#Get and clean data\nsource(\"src/GameDates.R\") ## Get Game Dates from 2007-2011\nsource(\"src/CleanMatches.R\") ## Clean Game Dates and create complete DF of Game Dates \nsource(\"src/HomicideData.R\") ## Load Homicide Data and merge with Game Dates\n\n#Game Day effect estimation\nsource(\"src/EffectsEstimation.R\") #Some estimation scripts and more data cleaning\nsource(\"src/NegativeBinomial.R\")  #Estimation results from the negative binomial and ZI models\n\n#Summary Statistics for tables\nsource(\"src/SummaryStatistics.R\") ##Latex Text outputs to latex-plots\n\n",
+    "created" : 1378934422992.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1674621125",
+    "id" : "642C705D",
+    "lastKnownWriteTime" : 1386616986,
+    "path" : "~/R/HomicidiosFutbol/RunAll.R",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
